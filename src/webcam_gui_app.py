@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load the model
-model = load_model(r'C:\CodeShell_Core\GitHub_Repository\emotion_detection_cnn\emotion-detection-cnn\model\emotion_model.h5')
+model = load_model(r'C:\CodeShell_Core\GitHub_Repository\emotion_detection_cnn\emotion-detection-cnn\model\vgg16_emotion_model.h5')
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Emotion color themes
